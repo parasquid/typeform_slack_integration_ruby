@@ -22,6 +22,11 @@ I'm using sqlite as the database to store the typeform data, so you'd need to ha
 
 After that, checkout this repository. Change into the checked out repo folder.
 
+```
+git checkout git@github.com:parasquid/typeform_slack_integration_ruby.git
+cd typeform_slack_integration_ruby
+```
+
 Then do `bundle install`
 
 Copy or rename the `.env.example` file to `.env` e.g. `cp .env.example .env`
