@@ -9,16 +9,16 @@ How to use
 I'm using sqlite as the database to store the typeform data, so you'd need to have the sqlite dev stuff installed:
 
 * Debian / Ubuntu
-  sudo apt-get install libsqlite3-dev
+  `sudo apt-get install libsqlite3-dev`
 
 * RedHat / Fedora
-  sudo yum install sqlite-devel
+  `sudo yum install sqlite-devel`
 
 * MacPorts
-  sudo port install sqlite3
+  `sudo port install sqlite3`
 
 * HomeBrew
-  sudo brew install sqlite
+  `sudo brew install sqlite`
 
 After that, checkout this repository. Change into the checked out repo folder.
 
