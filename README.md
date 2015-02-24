@@ -37,7 +37,6 @@ You can then install this into your crontab. Suggested crontab:
 
 ```
 */1 * * * * /path/to/your/repository/typeform_to_slack_worker.rb >> ~/typeform_to_slack_worker.logs
-
 ```
 
 Contributing
