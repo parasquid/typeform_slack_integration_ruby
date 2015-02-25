@@ -1,7 +1,7 @@
 Typeform and Slack Integration
 ------------------------------
 
-This was inspired by [Dylan](http://www.dylandamsma.com/) and https://levels.io/slack-typeform-auto-invite-sign-ups/
+This was inspired by [Dylan](http://twitter.com/dylandamsma/) and https://levels.io/slack-typeform-auto-invite-sign-ups/
 
 How to use
 ----------
@@ -38,6 +38,18 @@ You can then install this into your crontab. Suggested crontab:
 ```
 */1 * * * * /path/to/your/repository/typeform_to_slack_worker.rb >> ~/typeform_to_slack_worker.logs
 ```
+
+Configuration File
+------------
+
+1. [Get slack oAuth token here](https://api.slack.com/web)
+
+2. Typeform ID can be found when opening the Typeform URL: `https://[yourdomain].typeform.com/to/[typeformID]`
+
+3. Get your typeform API key here: `https://admin.typeform.com/account`
+
+4. Field IDs can be found in the API return `https://api.typeform.com/v0/form/[YourTypeformID]?key=[API Key]&completed=true`
+
 
 Contributing
 ------------
